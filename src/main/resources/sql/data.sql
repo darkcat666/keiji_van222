@@ -1,0 +1,10 @@
+INSERT INTO postboard VALUES(1, '2024-10-11 10:20:34', 'テストデータ', 'テストデータ');
+INSERT INTO postboard VALUES(2, '2024-10-12 10:20:44', 'エミリア', 'スバルのシャマク！');
+INSERT INTO postboard VALUES(3, '2024-10-13 10:20:45', 'カグヤ様', 'うへへ');
+INSERT INTO postboard VALUES(4, '2024-10-14 10:20:46', 'パックくん', 'エミリアはかわいいなあ');
+INSERT INTO postboard VALUES(5, '2024-10-15 10:20:47', 'お嬢', 'ここはサッカー会場ですか？');
+INSERT INTO postboard VALUES(6, '2024-10-16 10:20:48', 'ベルゼブブ', 'こんにちは');
+INSERT INTO postboard VALUES(7, '2024-10-17 10:20:49', 'くまさん', 'ガオー');
+INSERT INTO postboard VALUES(8, '2024-10-18 10:20:50', '呪術師サリオン', '「裏に来い」');
+INSERT INTO postboard VALUES(9, '2024-10-19 10:20:52', '魔術師サリバン', 'さりばんさまー');
+INSERT INTO postboard VALUES(10, '2024-10-20 10:20:53', '汚くないニンジャ', 'ぐひひぐへぐへ');

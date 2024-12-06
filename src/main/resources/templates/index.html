@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>ダークネコ掲示板</title>
+</head>
+<body>
+<div style="background-color: blue">
+	<p><font color="white">ダークネコ掲示板</font></p>
+</div>
+<table>
+	<div th:each="list : ${dataList}">
+		<hr size="4" color="black"/>
+		<hr />
+		日付：<p th:text="${list.dateTime}" />
+		<hr />
+		タイトル：<p th:text="${list.title}" />
+		<hr />
+		内容：<p th:text="${list.post}" />
+		<hr />
+		<hr size="4" color="black"/>
+		<br />
+	</div>
+	<a href="img/neko.png" style="position: absolute; bottom: 20; right: 20; z-index: 1;"><img src="" /></a>
+</table>
+</body>
+</html>

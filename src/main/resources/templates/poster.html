@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>ダークネコ掲示板</title>
+</head>
+<body>
+<form method="post" action="/output">
+<div>
+	<p>ダークネコ掲示板</p>
+</div>
+<div>
+	<div>
+		<label for="title">タイトル*</label>
+		<input type="text" id="title" placeholder="タイトルを入力" name="title"/>
+	</div>
+	<div>
+		<label for="post">内容*</label>
+		<input type="text" id="post" placeholder="投稿内容を入力" name="post"/>
+	</div>
+	<input type="submit" value="投稿" />
+</div>
+</form>
+</body>
+</html>
